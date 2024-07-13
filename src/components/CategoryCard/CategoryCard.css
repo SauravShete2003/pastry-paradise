@@ -1,0 +1,40 @@
+.category-container{
+position: relative;
+ width: 240px;
+ text-align: center;
+ margin: 10px;
+ padding: 10px;
+ border-radius: 5px;
+ background-color: aliceblue;
+}
+
+.category-card-image{
+    width: 240px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px 1px;
+}
+
+.category-card-name{
+    font-weight: 600;
+    font-size: 19px;
+   
+}
+
+.category-card-desc{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.category-card-price{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.category-card-like{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 30px;
+    cursor: pointer;
+}
