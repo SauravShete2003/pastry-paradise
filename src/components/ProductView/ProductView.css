@@ -51,3 +51,59 @@
     font-weight: 600;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .cake-categories-container {
+      justify-content: space-around;
+    }
+  
+    .cake-categories-item {
+      margin: 10px 5px;
+      width: 120px;
+      height: 160px;
+    }
+  
+    .cake-categories-image {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .cake-categories-item-name {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  
+    .cake-categories-heading {
+      font-size: 20px;
+    }
+  
+    .birthday-heading {
+      font-size: 22px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cake-categories-item {
+      margin: 10px 5px;
+      width: 100px;
+      height: 140px;
+    }
+  
+    .cake-categories-image {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .cake-categories-item-name {
+      font-size: 12px;
+      margin-top: 8px;
+    }
+  
+    .cake-categories-heading {
+      font-size: 18px;
+    }
+  
+    .birthday-heading {
+      font-size: 20px;
+    }
+  }

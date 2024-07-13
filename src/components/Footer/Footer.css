@@ -32,3 +32,29 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 10px;
+  }
+  
+  .pastry-paradise-logo {
+    position: static;
+    display: block;
+    margin: 0 auto 20px;
+  }
+
+  .links-container {
+    flex-direction: column;
+  }
+
+  .social-media-icon {
+    margin: 10px 0;
+    width: 30px;
+    padding: 10px;
+  }
+
+  .public-date {
+    font-size: 12px;
+  }
+}

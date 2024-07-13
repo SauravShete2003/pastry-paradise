@@ -35,7 +35,7 @@ const birthdayData = [
 
   {
     name: "cream Cake",
-    image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStKeXeKg6LC4PsAAK6cJey4Hy_BKtkK7nywnMyCK3fKHpBzI2ij-nQt3GS13DNKXB3TZY&usqp=CAU',
+    image:'https://cdn.igp.com/f_auto,q_auto,t_pnopt19prodlp/products/p-oreo-drip-cake-half-kg-46870-m.jpg',
     price: "$ 2000 <del>$ 2500</del>",
     description:
       "Big Sugar Bakeshop Wedding Cake Studio City, CA Wedding",

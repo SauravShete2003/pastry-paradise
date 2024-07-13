@@ -25,3 +25,37 @@
     font-size: 1.6rem;
     font-weight: 600;
 }
+
+@media (max-width: 768px) {
+    .product-heading {
+      font-size: 24px;
+      top: 5px;
+      right: 20%;
+    }
+  
+    .cake-short-desc {
+      font-size: 1.2rem;
+      top: 30%;
+      padding: 0 10px;
+    }
+  
+    .product-image {
+      height: 60vh;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .product-heading {
+    width: auto;
+    }
+  
+    .cake-short-desc {
+      font-size: 1rem;
+      top: 18%;
+      padding: 0 5px;
+    }
+  
+    .product-image {
+      height: 50vh;
+    }
+  }
