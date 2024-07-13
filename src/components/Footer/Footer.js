@@ -2,7 +2,6 @@ import logo from "./Designer.png";
 import insta from "./instagram.png";
 import linkedin from "./linkedin.png";
 import facebook from "./facebook.png";
-import twitter from "./twitter.png";
 import "./Footer.css";
 function Footer() {
   return (
@@ -15,7 +14,7 @@ function Footer() {
             className="
       social-media-icon"
           />
-        </a>
+        </a >
         <a href="https://m.facebook.com/saurav.shete.10/">
           <img
             src={facebook}
@@ -30,7 +29,7 @@ function Footer() {
       social-media-icon"
           />
         </a>
-        <a href="https://twitter.com/SauravShete10">
+        <a href="https://peerlist.io/saurav_shete">
           <img
             src="https://media.licdn.com/dms/image/C4D0BAQGjCtiL8FcUcw/company-logo_200_200/0/1646835555233/peerlist_logo?e=2147483647&v=beta&t=5-raV6b7AI36OcSWiuqE6TrGkaNehuqRQa9OYwobaLs"
             className="social-media-icon"

@@ -1,12 +1,17 @@
 .footer-container {
   background-color: #3e3d3d;
   color: #fff;
-  padding: 15px 5px;
+  padding: 20px 5px;
+  position: relative;
+  
 }
 
 .pastry-paradise-logo {
+  position: absolute;
+  top: 20px;
+  left: 10px;
   width: 100px;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 .public-date {
   color: #fff;
@@ -15,13 +20,15 @@
 }
 
 .social-media-icon {
-  width: 30px;
-  border-radius: 30%;
-  padding: 10px;
+  background-color: #fff;
+  margin: 5px;
+  width: 23px;
+  border-radius: 50%;
+  padding: 8px;
 }
 
-.links-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
