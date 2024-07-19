@@ -15,7 +15,7 @@ function CategoryCard({name , image , price , description}) {
       <img src={image} alt={name}  className="category-card-image"/><br/>
       <span className="category-card-price" dangerouslySetInnerHTML={{__html: price}}>
     </span><br/>
-      <p className="category-card-desc">{description.substring(0,79)}...</p>
+      <p className="category-card-desc">{description.substring(0,120)}...</p>
       <img 
       src={liked ? likeImg : unlike}
       alt={liked ? "liked" : "unliked"}

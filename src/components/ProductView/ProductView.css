@@ -51,6 +51,17 @@
     font-weight: 600;
     text-align: center;
 }
+.input-box{
+  display: block;
+  margin: 10px auto;
+  width: 350px;
+  padding: 8px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.input-box:focus,.input-box:active {
+  outline: none;
+}
 
 @media (max-width: 768px) {
     .cake-categories-container {
